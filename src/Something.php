@@ -10,7 +10,7 @@ class Something
 {
     public function __construct()
     {
-        //
+        // Commit 2
     }
 }
 
