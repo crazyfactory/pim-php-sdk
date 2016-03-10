@@ -1,2 +1,9 @@
-vendor
+
+# Composer
+composer.phar
 composer.lock
+/vendor
+
+# PHPStorm
+.idea
+
