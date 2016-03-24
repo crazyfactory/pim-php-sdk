@@ -13,6 +13,8 @@ namespace PIM;
 class Configuration
 {
 	private static $token = null;
+	private static $secret = null;
+	private static $path = "http://localhost/pim-api";
 
 	/**
 	 * Initially sets the access token to be used by all calls to the PIM API.
@@ -35,4 +37,18 @@ class Configuration
 		return Configuration::$token;
 	}
 
+	public static function setPath($path) {
+
+		// TODO: Throw up if $path has invalid format or is empty
+		//
+		//
+		//
+
+		// Save
+		Configuration::$path = $path;
+	}
+
+	public static function getPath() {
+		return Configuration::$path;
+	}
 }

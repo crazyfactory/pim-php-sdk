@@ -1,15 +1,15 @@
 {
-    "name": "crazyfactory/pim-api-composer",
+    "name": "crazyfactory/pim-php-sdk",
     "description": "Demo",
     "license": "MIT",
     "authors": [
         {
             "name": "Wolf Mathes",
-            "email": "w.mathes@crazy-factory.com"
+            "email": "wolf@crazy-factory.com"
         },
         {
             "name": "Jens Krause",
-            "email": "j.krause@crazy-factory.com"
+            "email": "jens@crazy-factory.com"
         }
     ],
     "minimum-stability": "dev",
